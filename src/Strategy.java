@@ -33,7 +33,7 @@ class QuickSortStrategy implements SortingStrategy {
 
         
         sorter.setStrategy(new BubbleSortStrategy());
-        int[] array1 = {5, 3, 8, 4, 2};
+        int[] array1 = {5, 10, 2, 3, 1};
         sorter.sortArray(array1);
 
        
